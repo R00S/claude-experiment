@@ -307,4 +307,12 @@ All iterations confidently inferred a root cause for the `get_ha_logs` 404 error
 | [`analysis/iteration-2b.md`](analysis/iteration-2b.md) | Chunked analysis with per-section detail, run B (with honesty prompt) |
 | [`analysis/iteration-3a.md`](analysis/iteration-3a.md) | Multi-phase structural mapping analysis, run A (no honesty prompt) |
 | [`analysis/iteration-3b.md`](analysis/iteration-3b.md) | Multi-phase structural mapping analysis, run B (with honesty prompt) |
+| [`prompts/prompt-1a.md`](prompts/prompt-1a.md) | Prompt used to generate iteration 1a |
+| [`prompts/prompt-1b.md`](prompts/prompt-1b.md) | Prompt used to generate iteration 1b |
+| [`prompts/prompt-2a.md`](prompts/prompt-2a.md) | Prompt used to generate iteration 2a |
+| [`prompts/prompt-2b.md`](prompts/prompt-2b.md) | Prompt used to generate iteration 2b |
+| [`prompts/prompt-3a.md`](prompts/prompt-3a.md) | Prompt used to generate iteration 3a |
+| [`prompts/prompt-3b.md`](prompts/prompt-3b.md) | Prompt used to generate iteration 3b |
+| [`prompts/prompt-7.md`](prompts/prompt-7.md) | Prompt used to generate this README |
+| [`orchestrator-reflection.md`](orchestrator-reflection.md) | Post-experiment notes from the orchestrating AI (Claude Opus 4.6) |
 | [`README.md`](README.md) | This file |
