@@ -79,7 +79,7 @@ The three methods were compared by identifying every factual disagreement betwee
 - **Iteration 1b** said: "4 GiB" (in the table), "4000 MiB" not mentioned
 - **Iteration 2a** said: "4 GiB RAM"
 - **Iteration 3a** said: "4000 MiB"
-- **Source (line 931):** User typed: "used 4000Mib, is that ok, only have 16MB on the server." Copilot confirmed: "4000 MiB is fine." The QEMU command line (line 1261–1262) shows `-m size=4096000k` and `size:4194304000` (4000 MiB = 4096000 KiB). Copilot later rounded to "4 GiB" in a summary table (line 1503).
+- **Source (line 931):** User typed (verbatim, including typos): "used 4000Mib, is that ok, only have 16MB on the server" (the user meant 16 GB). Copilot confirmed: "4000 MiB is fine with 16GB total on the server." The QEMU command line (line 1261–1262) shows `-m size=4096000k` and `size:4194304000` (4000 MiB = 4096000 KiB). Copilot later rounded to "4 GiB" in a summary table (line 1503).
 - **Correct:** 1a, 3a (exact). **Approximate but acceptable:** 1b, 2a, 2b (rounding 4000 MiB to 4 GiB). The source shows both values were used in different contexts.
 
 **Disagreement 5: `run_tests` results in the post-network-fix test round**
